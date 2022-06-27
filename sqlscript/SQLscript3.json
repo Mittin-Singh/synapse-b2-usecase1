@@ -1,0 +1,17 @@
+{
+	"name": "SQLscript3",
+	"properties": {
+		"content": {
+			"query": "SELECT * FROM [default].dbo.smalltrips",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "master",
+				"poolName": "Built-in"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
