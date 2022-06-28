@@ -1,0 +1,17 @@
+{
+	"name": "customerscript",
+	"properties": {
+		"content": {
+			"query": "CREATE TABLE CustomerRecords \n(CUSTOMERID INT, \nCUSTOMERNAME NATIONAL CHARACTER VARYING(100), \nCREDITLIMIT INT);\nGO\n\n-- SELECT * FROM dbo.CustomerRecords;",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "mittinsqlpool",
+				"poolName": "mittinsqlpool"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
